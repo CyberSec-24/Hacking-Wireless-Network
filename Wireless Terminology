@@ -1,0 +1,33 @@
+Global System for Mobile Communications (GSM): It is a universal system used for mobile data transmission in wireless networks worldwide.
+
+ Bandwidth: It describes the amount of information that may be broadcast over a connection. Usually, bandwidth refers to the data transfer rate and is measured in bits (amount of data) per second (bps).
+
+Access point (AP): An AP is used to connect wireless devices to a wireless/wired network. It allows wireless communication devices to connect to a wireless network through wireless standards such as Bluetooth and Wi-Fi.
+
+It is the media access control (MAC) address of an access point (AP) or base station that has set up a basic service set (BSS). Generally, users are unaware of the BSS to which they belong. 
+When a user moves a device, the BSS used by the device could change because of a variation in the range covered by the AP, but this change may not affect the connectivity of the wireless device
+
+ Industrial, scientific, and medical (ISM) band: This band is a set of frequencies used by the international industrial, scientific, and medical communities.
+
+Hotspot: These are places where wireless networks are available for public use. Hotspots refer to areas with Wi-Fi availability, where users can enable Wi-Fi on their devices and connect to the Internet
+
+Association: It refers to the process of connecting a wireless device to an AP
+
+ Service set identifier (SSID): An SSID is a 32-alphanumeric-character unique identifier given to a wireless local area network (WLAN) that acts as a wireless identifier of the network. 
+The SSID permits connections to the desired network among available independent networks. Devices connecting to the same WLAN should use the same SSID to establish connections
+
+ Orthogonal frequency-division multiplexing (OFDM): An OFDM is a method of digital modulation of data in which a signal, at a chosen frequency, is split into multiple carrier frequencies that are orthogonal (occurring at right angles) to each other. 
+OFDM maps information on the changes in the carrier phase, frequency, amplitude, or a combination of these and shares bandwidth with other independent channels.
+
+Direct-sequence spread spectrum (DSSS): DSSS is a spread spectrum technique that multiplies the original data signal with a pseudo-random noise-spreading code.
+
+Multiple input, multiple output-orthogonal frequency-division multiplexing (MIMO-OFDM): MIMO-OFDM influences the spectral efficiency of 4G and 5G wireless communication services. 
+Adopting the MIMO-OFDM technique reduces interference and increases the channel robustness
+
+Frequency-hopping spread spectrum (FHSS): FHSS, also known as frequency-hopping code-division multiple access (FH-CDMA), is a method of transmitting radio signals by rapidly switching a carrier among many frequency channels.
+It decreases the efficiency of unauthorized interception or jamming of telecommunications. 
+
+
+
+
+
