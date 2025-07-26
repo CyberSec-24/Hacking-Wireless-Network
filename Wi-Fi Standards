@@ -1,0 +1,92 @@
+802.11: 
+The 802.11 (Wi-Fi) standard applies to WLANs and uses FHSS or DSSS as the frequency-hopping spectrum. 
+It allows an electronic device to establish a wireless connection in any network.
+
+ 802.11a:
+It is the first amendment to the original 802.11 standard. 
+The 802.11 standard operates in the 5 GHz frequency band and supports bandwidths up to 54 Mbps using orthogonal frequency-division multiplexing (OFDM). 
+It has a high maximum speed but is relatively more sensitive to walls and other obstacles
+
+802.11ax (Wi-Fi 6):
+Wi-Fi 6, also known as 802.11ax, is the latest generation of Wi-Fi and enhances the foundation of 802.11ac (Wi-Fi 5).
+It supports speeds of up to 9.6 Gbps, uses orthogonal frequency-division multiple access (OFDMA) to efficiently manage multiple connections, and improves performance in crowded areas through features such as BSS Coloring and target wake time (TWT).
+Wi-Fi 6 is ideal for dense environments, such as stadiums, airports, and smart homes with many connected devices
+
+ 802.11b: 
+IEEE extended the 802.11 standard by creating the 802.11b specifications in 1999. 
+This standard operates in the 2.4 GHz ISM band and supports bandwidths up to 11 Mbps using direct-sequence spread spectrum (DSSS) modulation
+
+ 802.11be (Wi-Fi 7):
+Wi-Fi 7, also known as 802.11be, is an emerging standard that aims to significantly improve Wi-Fi 6/6E. 
+It supports speeds of up to 30 Gbps, uses a multilink operation (MLO) to aggregate multiple channels across different bands, and reduces the latency for real-time applications. 
+Wi-Fi 7 was designed for future-proof, ultrahigh-speed Internet, virtual reality, augmented reality, and advanced IoT applications
+
+802.11d: 
+The 802.11d standard is an enhanced version of 802.11a and 802.11b that supports regulatory domains. 
+The specifications of this standard can be set in the media access control (MAC) layer.
+
+IEEE 802.11e: 
+It is used for real-time applications such as voice, VoIP, and video. 
+To ensure that these time-sensitive applications have the network resources they need, 802.11e defines mechanisms to ensure quality of service (QoS) to Layer 2 of the reference model, which is the MAC layer.
+
+802.11g: 
+It is an extension of 802.11 and supports a maximum bandwidth of 54 Mbps using OFDM technology. It uses the same 2.4 GHz band as 802.11b. 
+The IEEE 802.11g standard defines high-speed extensions to 802.11b and is compatible with the 802.11b standard, which means 802.11b devices can work directly with an 802.11g AP
+
+ 802.11i: 
+The IEEE 802.11i standard improves WLAN security by implementing new encryption protocols such as the Temporal Key Integrity Protocol (TKIP) and Advanced Encryption Standard (AES).
+
+802.11n: 
+The IEEE 802.11n is a revision that enhances the 802.11g standard with multiple-input multiple-output (MIMO) antennas. It works in both the 2.4 GHz and 5 GHz bands.
+Furthermore, it is an IEEE industry standard for Wi-Fi wireless local network transportation. Digital Audio Broadcasting (DAB) and WLAN use OFDM
+
+802.11ah: 
+Also called Wi-Fi HaLow, uses 900 MHz bands for extended-range Wi-Fi networks and supports Internet of Things (IoT) communication with higher data rates and wider coverage range than the previous standards
+
+802.11ac:
+It provides a high-throughput network at a frequency of 5 GHz. It is faster and more reliable than the 802.11n standard.
+Moreover, it involves Gigabit networking, which provides an instantaneous data-transfer experience.
+
+802.11ad: 
+The 802.11ad standard includes a new physical layer for 802.11 networks and works on the 60 GHz spectrum. 
+The data propagation speed in this standard is much higher from those of standards operating on the 2.4 GHz and 5 GHz bands, such as 802.11n
+
+ 802.12:
+Media utilization is dominated by this standard because it works on the demand priority protocol. The Ethernet speed with this standard is 100 Mbps. 
+Furthermore, it is compatible with the 802.3 and 802.5 standards. Users currently on those standards can directly upgrade to the 802.12 standard
+
+ 802.15:
+It defines the standards for a wireless personal area network (WPAN) and describes the specifications for wireless connectivity with fixed or portable devices.
+
+802.15.1 (Bluetooth):
+Bluetooth is mainly used for exchanging data over short distances on fixed or mobile devices. This standard works on the 2.4 GHz band.
+
+ 802.15.4 (ZigBee): 
+The 802.15.4 standard has a low data rate and complexity. The specification used in this standard is ZigBee, transmits long-distance data through a mesh network.
+The specification handles applications with a low data rate of 250 Kbps, but its use increases battery life
+
+802.15.5: 
+This standard deploys itself on a full-mesh or half-mesh topology. It includes network initialization, addressing, and unicasting
+
+ 802.16: 
+The IEEE 802.16 standard is a wireless communications standard designed to provide multiple physical layer (PHY) and MAC options.
+It is also known as WiMax. This standard is a specification for fixed broadband wireless metropolitan access networks (MANs) that use a point-to-multipoint architecture.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
