@@ -1,0 +1,31 @@
+After completing the wireless network discovery, mapping, and analysis of the target wireless network, an attacker will be in a position to launch an attack on the target wireless network. 
+
+The attacker may launch various types of attacks such as fragmentation attacks, MAC spoofing attacks, DoS attacks, and Address Resolution Protocol (ARP) poisoning attacks. 
+
+This section describes wireless attacks and how they are performed
+
+Aircrack-ng is a network software suite consisting of a detector, packet sniffer, WEP and WPA PSK (WPA 1 and 2) cracker, and analysis tool for 802.11 wireless networks.
+
+This program runs under Linux and Windows
+
+▪ Airbase-ng: It captures the WPA/WPA2 handshake and can act as an ad-hoc AP. 
+▪ Aircrack-ng: This program is the de facto WEP and WPA/WPA2 PSK cracking tool.
+▪ Airdecap-ng: It decrypts WEP/WPA/WPA2 and can be used to strip wireless headers from Wi-Fi packets.
+▪ Airdrop-ng: This program is used for the targeted, rule-based de-authentication of users.
+▪ Aireplay-ng: It is especially effective for gathering initialization vectors (WEP IVs) and WPA handshakes, which can then be utilized with aircrack-ng for further analysis and potential network security testing.
+▪ Airgraph-ng: This program creates a client–AP relationship and common probe graph from an airodump file.
+▪ Airmon-ng: It is used to switch from the managed mode to the monitor mode on wireless interfaces and vice versa.
+▪ Airodump-ng: This program is used to capture packets of raw 802.11 frames and collect WEP IVs.
+▪ Airolib-ng: This program stores and manages ESSID and password lists used in WPA/ WPA2 cracking.
+▪ Airtun-ng: It creates a virtual tunnel interface to monitor encrypted traffic and inject arbitrary traffic into a network
+
+
+
+
+
+
+
+
+
+
+
