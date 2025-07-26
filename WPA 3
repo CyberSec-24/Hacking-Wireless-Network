@@ -1,0 +1,69 @@
+Wi-Fi Protected Access 3 (WPA3) was announced by the Wi-Fi Alliance on January 2018 as an advanced implementation of WPA2 that provides trailblazing protocols.
+
+Like WPA2, the WPA3 protocol has two variants: WPA3-Personal and WPA3-Enterprise. 
+
+WPA3 provides cutting-edge features to simplify Wi-Fi security and provides the capabilities necessary to support different network deployments ranging from corporate networks to home networks.
+
+It also ensures cryptographic consistency using encryption algorithms such as AES and TKIP to defend against network attacks.
+
+Furthermore, it provides network resilience through Protected Management Frames (PMF) that deliver a high level of protection against eavesdropping and forging attacks. 
+
+WPA3 also disallows outdated legacy protocols.
+
+
+WPA3 offers two modes of operation: 
+
+WPA3-Personal:
+This mode is mainly used to deliver password-based authentication. 
+WPA3 is more rigid to attacks than WPA2 because it uses a modern key establishment protocol called the Simultaneous Authentication of Equals (SAE), also known as Dragonfly Key Exchange, which replaces the PSK concept used in WPA2-Personal. 
+
+Some of the features of WPA3-Personal are described below. 
+Resistance to offline dictionary attacks: It prevents passive password attacks such as brute-forcing.
+
+Resistance to key recovery
+Even when a password is determined, it is impossible to capture and determine session keys while maintaining the forward secrecy of network traffic
+
+ Natural password choice:
+It allows users to choose weak or popular phrases as passwords, which are easy to remember.
+
+Easy accessibility: 
+It can provide greater protection than WPA2 without changing the previous methods used by users for connecting to a network.
+
+
+WPA3-Enterprise:
+This mode is based on WPA2. It offers better security than WPA2 across the network and protects sensitive data using many cryptographic concepts and tools.
+
+Some of the security protocols used by WPA3-Enterprise are described below. 
+
+Authenticated encryption: 
+It helps in maintaining the authenticity and confidentiality of data. For this purpose, WPA3 uses the 256-bit Galois/Counter Mode Protocol (GCMP-256).
+
+Key derivation and validation: 
+It helps in generating a cryptographic key from a password or master key. 
+It uses the 384-bit hashed message authentication mode (HMAC) with the Secure Hash Algorithm, termed HMAC-SHA-384.
+
+Key establishment and verification: 
+It helps in exchanging cryptographic keys among two parties. 
+For this purpose, WPA3 uses Elliptic Curve Diffie–Hellman (ECDH) exchange and Elliptic Curve Digital Signature Algorithm (ECDSA) using a 384-bit elliptic curve
+
+Frame protection and robust administration:
+WPA3 uses 256-bit Broadcast/Multicast Integrity Protocol Galois Message Authentication Code (BIP-GMAC-256) for this purpose.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
