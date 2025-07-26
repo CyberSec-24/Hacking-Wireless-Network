@@ -1,0 +1,49 @@
+Wi-Fi Protected Access (WPA) is a security protocol defined by the 802.11i standard.
+
+In the past, the primary security mechanism used between wireless APs and wireless clients was WEP encryption, which has a major drawback in that it uses a static encryption key. 
+
+An attacker can exploit this weakness using tools that are freely available on the Internet. 
+
+IEEE defines WPA as “an expansion to the 802.11 protocols that can allow for increased security.” Nearly every Wi -Fi manufacturer provides WPA
+
+IEEE defines WPA as “an expansion to the 802.11 protocols that can allow for increased security.” Nearly every Wi -Fi manufacturer provides WPA.
+
+WPA has better data encryption security than WEP because messages pass through a Message Integrity Check (MIC) using the Temporal Key Integrity Protocol (TKIP), which utilizes the RC4 stream cipher encryption with 128-bit keys and 64-bit MIC to provide strong encryption and authentication. 
+
+WPA is an example of how 802.11i provides stronger encryption and enables pre-shared key (PSK) or EAP authentication. 
+
+WPA uses TKIP for data encryption, which eliminates the weaknesses of WEP by including per-packet mixing functions, MICs, extended IVs and re-keying mechanisms.
+
+WEP normally uses a 40-bit or 104-bit encryption key, whereas TKIP uses 128-bit keys for each packet
+
+
+TKIP:
+It is used in a unicast encryption key that changes for every packet, thereby enhancing security.
+
+This change in the key for each packet is automatically coordinated between the wireless client and AP.
+
+TKIP uses a Michael Integrity Check algorithm with an MIC key to generate the MIC value. 
+
+It utilizes the RC4 stream cipher encryption with 128-bit keys and a 64-bit MIC integrity check. 
+
+It mitigates vulnerability by increasing the size of the IV and using mixing functions. 
+
+Under TKIP, the client starts with a 128-bit temporal key (TK) that is then combined with the client's MAC address and with an IV to create a keystream that is used to encrypt data via RC4
+
+
+ TKs: 
+All newly deployed Wi-Fi equipment uses either TKIP (for WPA) or AES (for WPA2) encryption to ensure WLAN security. 
+
+In the WEP encryption mechanism, the protocol derives encryption keys (TKs) from the pairwise master key (PMK), which is created during the EAP authentication session, whereas in the WPA and WPA2 encryption mechanisms, the protocol obtains the encryption keys during a four-way handshake.
+
+In the EAP success message, the PMK is sent to the AP but is not directed to the Wi-Fi client because it has derived its own copy of the PMK
+
+
+
+
+
+
+
+
+
+
