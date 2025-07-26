@@ -1,0 +1,27 @@
+Wireless networks are vulnerable to DoS attacks because of the relationships among the physical, data-link, and network layers.
+
+These networks operate in unlicensed bands with data transmission in the form of radio signals.
+
+The designers of the MAC protocol aimed at simplicity, but it is vulnerable to DoS attacks. 
+
+WLANs usually carry mission-critical applications such as VoIP, database access, project data files, and Internet access.
+
+Disrupting these applications on WLANs through a DoS attack is easy and can cause a loss of productivity or network downtime.
+
+Wireless DoS attacks disrupt wireless network connections by broadcasting de-authenticate commands. 
+
+The transmitted de-authentication forces the clients to disconnect from the AP
+
+Wireless DoS attacks include disassociation attacks and de-authentication attacks. 
+
+▪ Disassociation Attack
+In a disassociation attack, the attacker makes the victim unavailable to other wireless devices by destroying the connectivity between the AP and client
+
+▪ De-authentication Attack
+In a de-authentication attack, the attacker floods station(s) with forged de-authenticates or disassociates to disconnect users from an AP.
+
+
+
+
+
+
