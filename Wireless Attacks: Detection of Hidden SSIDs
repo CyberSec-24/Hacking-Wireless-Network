@@ -1,0 +1,39 @@
+Based on the principle of security through obscurity, many organizations hide the SSID of their wireless networks without broadcasting them.
+
+This is part of the security policy of many organizations because an attacker may take advantage of the SSID to breach the security of their wireless networks. 
+
+However, hiding SSIDs does not increase security. An attacker can reveal a hidden SSID using the aircrack-ng suite and mdk3 through the following steps
+
+▪ Run airmon-ng in the monitor mode using the command airmon-ng start <Wireless interface>. If any process causes trouble, first run airmon-ng check kill command.
+
+▪ Start airodump-ng to discover SSIDs on the interface 
+
+▪ Open another terminal as root and run mdk3 <Wireless Interface> p -b 1 -c <Channel> -t < Target BSSID> command to brute force and retrieve the actual hidden SSID
+
+In the command,
+o p: Basic probing and ESSID Brute-force mode
+o -b: Beacon flood mode o 1: EAPOL logoff test 
+o -c: Selection channel (here, 2) 
+o -t: Target BSSID (here, 1C:3B:F3:40:10:74) 
+o wlx00e02d886189: Wireless interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
