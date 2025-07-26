@@ -1,3 +1,5 @@
+inSSIDer
+
 inSSIDer is a Wi-Fi optimization and troubleshooting tool that scans for wireless networks with the user’s Wi-Fi adapter so that the user can visualize their signal strengths and the channels they are using.
 
 It also lists useful information about each network. Attackers use inSSIDer to discover Wi-Fi access points and devices in their vicinity.
@@ -7,4 +9,55 @@ Inspects WLAN and surrounding networks to troubleshoot competing APs
 Tracks the strength of a received signal in terms of dBm over time and filters APs 
 
 Highlights APs for areas with high Wi-Fi concentration
+
+
+Sparrow Wi-Fi
+
+Sparrow-Wi-Fi is a GUI-based comprehensive 2.4 GHz and 5 GHz Wi-Fi spectral awareness tool. 
+
+It allows attackers to integrate software-defined radio (HackRF), advanced Bluetooth tools (Ubertooth), traditional GPS (via gpsd), and drone/rover GPS (via mavlink) to discover Wi-Fi access points, identify SSIDs, perform source hunting, and conduct spectrum analysis.
+
+It offers import/export capabilities for CSV and JSON, and can produce Google Maps for the discovered devices
+
+
+Wi-Fi Analyzer
+
+WiFi Analyzer is a Wi-Fi network optimization tool used to examine surrounding Wi-Fi networks, measure their signal strengths, and identify crowded channels.
+
+Attackers use WiFi Analyzer to detect nearby APs, graph the signal strengths of channels, estimate distances to APs, etc
+
+
+Finding WPS-Enabled APs
+
+Attackers use the Wash command-line utility to identify WPS-enabled APs in the target wireless network. 
+
+This utility also helps attackers check whether the AP is in a locked state. 
+
+Most WPS-enabled routers are locked automatically when incorrect credentials are entered more than 5 times consecutively, and they can be unlocked only in the administrator interface of the router manually.
+
+The Wash command supports the 5 GHz channel and can be used by installing the Reaver package
+
+The following are some of the important arguments of the Wash command that are used by attackers: 
+▪ -i, --interface=<iface> (specifies the interface to capture packets) 
+▪ -a, --all (displays all access points, including those with WPS disabled) 
+▪ -f, --file [FILE1 FILE2 FILE3 ...] (reads packets from captured files) 
+▪ -c, --channel=<num> (specifies the channel to listen [auto]) 
+▪ -o, --out-file=<file> (writes data to a file) 
+▪ -n, --probes=<num> (specifies maximum number of probes to send to each AP in the scan mode)
+▪ -D, --daemonize (Wash command) 
+▪ -5, --5ghz (command to use 5 GHz 802.11 channels) 
+▪ -s, --scan (command to run in the scan mode) 
+▪-u, --survey (command to use the survey mode [default])
+
+
+
+
+
+
+
+
+
+
+
+
 
