@@ -1,0 +1,31 @@
+A wormhole attack exploits dynamic routing protocols such as Dynamic Source Routing (DSR) and the Ad-Hoc On-Demand Distance Vector (AODV).
+
+In this attack, an attacker locates themselves strategically in the target network to sniff and record ongoing wireless transmissions.
+
+From this location, the attacker advertises that the malicious node has the shortest route for transmitting data to other nodes in the network.
+
+To perform sniffing and to record the ongoing communication, the attacker creates a tunnel to forward the data between the source and destination node.
+
+In wireless sensor networks, protocols such as AODV and DSR use route request (RREQ) and route reply (RREP) messages to discover the dynamic route between source and destination nodes.
+
+For example, a source node (S) sends an RREQ packet, which is a broadcast message to the destination node (D), and D responds by sending the RREP packet, which is a unicast message.
+
+RREP contains the route information to reach D. When S receives this message, it stores this information in its route cache and forwards all the application data to D using this route.
+
+In a wormhole attack, the attacker attempts to build a tunnel between S and D using a malicious node (M) within the transmission range of S and D.
+
+The attacker listens to the network traffic waiting for RREQ messages. 
+
+When S attempts to transmit some application data to D, it first sends an RREQ message to discover the route to D. 
+
+The attacker sniffs this RREQ message from S and forwards the RREQ message directly to D before the original RREQ message reaches D. 
+
+Similarly, the attacker sniffs the RREP message from D and forwards it to S before the original RREP message reaches S, thereby creating a fake direct link between S and D via M. 
+
+After establishing a successful tunnel between S and D, the attacker starts controlling the data flow between the two nodes and may start performing other types of attacks.
+
+Wormhole attacks pose a severe threat to wireless sensor networks because attackers using this attack may manipulate routing and application data in real time, severely impacting the confidentiality, integrity, and availability of network data.
+
+
+
+
