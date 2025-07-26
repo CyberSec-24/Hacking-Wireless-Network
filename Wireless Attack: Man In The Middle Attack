@@ -1,0 +1,41 @@
+A man-in-the-middle (MITM) attack is an active Internet attack in which the attacker attempts to intercept, read, or alter information transmitted between two computers. 
+
+MITM attacks are associated with 802.11 WLANs as well as wired communication systems
+
+▪ Eavesdropping 
+Eavesdropping is easy in a wireless network because no physical medium is used for communication.
+
+An attacker in the vicinity of a wireless network can receive radio waves on the wireless network without much effort or equipment. 
+
+Furthermore, the attacker can examine the entire data frame sent across the network or store it for later assessment.
+Several layers of encryption need to be implemented to prevent attackers from obtaining sensitive information. WEP or data-link encryption can be used in these layers. 
+
+Further, a security mechanism such as IPsec, SSH, or SSL must be used, failing which sent data may be available to attackers. 
+
+However, as demonstrated in a previous section, an attacker can crack WEP with tools freely available on the Internet. 
+
+Accessing email using the Post Office Protocol (POP) or Internet Message Access Protocol (IMAP) is risky because these protocols can send an email over a wireless network without any form of extra encryption.
+
+A skilled hacker can potentially log gigabytes of WEP-protected traffic, post-process the data, and break the encryption
+
+
+▪ Manipulation
+Manipulation is a level beyond eavesdropping. 
+
+It occurs when an attacker receives the victim’s encrypted data, manipulates it, and retransmits the manipulated data to the victim. 
+
+In addition, an attacker can intercept packets with encrypted data and change the destination address to forward these packets across the Internet.
+
+
+MITM Attack Using Aircrack-ng An attacker can perform an MITM attack using aircrack-ng through the following steps.
+
+▪ Run airmon-ng in the monitor mode. 
+▪ Start airodump to discover SSIDs on the interface.
+▪ De-authenticate (deauth) the client using aireplay-ng
+▪ Associate the wireless card (fake association) with the AP to be accessed with aireplay-ng
+
+
+
+
+
+
