@@ -1,0 +1,87 @@
+Access Control Attacks
+
+MAC spoofing: 
+Using the MAC spoofing technique, an attacker can reconfigure a MAC address to appear as an authorized AP to a host on a trusted network. 
+The attacker may use tools such as SMAC to perform this kind of attack.
+
+
+AP misconfiguration: If a user improperly configures any of the critical security settings at any of the APs, the entire network could be exposed to vulnerabilities and attacks. 
+The AP cannot trigger alerts in most intrusion-detection systems, because these systems recognize them as a legitimate device.
+Most organizations spend significant amounts of time defining and implementing Wi-Fi security policies, but it may be possible for a client of a wireless network to change the
+It is difficult to detect a misconfigured AP because it is an authorized, legitimate device on the network. 
+Attackers can easily connect to a secured network through misconfigured APs, which continue to function normally after an attacker connects because no alerts will be triggered even if the attacker uses the connection to compromise security. 
+Many organizations fail to maintain Wi-Fi security policies and do not take proper measures to eliminate this flaw in security configurations
+
+
+SSID broadcast: 
+An attacker configures APs to broadcast SSIDs to authorized users.
+All AP models have their own default SSID, and APs with default configurations using default SSIDs are vulnerable to brute-force dictionary attacks.
+Even if users enable WEP, an unencrypted SSID broadcasts the password in plaintext.
+
+
+Weak password:
+Some network administrators incorrectly use SSIDs as basic passwords to verify authorized users.
+SSIDs act as rudimentary passwords and help network administrators recognize authorized wireless devices in the network.
+
+
+ Configuration error: 
+Configuration errors include errors made during installation, configuration policies on an AP, human errors made while troubleshooting WLAN problems, and security changes not implemented uniformly across an architecture.
+SSID broadcasting is a configuration error that assists attackers in stealing an SSID, which makes the AP assume that the attacker is attempting a legitimate connection.
+
+
+ Ad hoc associations: 
+Wi-Fi clients can communicate directly via an ad-hoc mode that does not require an AP to relay packets. 
+Data can be conveniently shared among clients in ad-hoc networks, which are quite popular among Wi-Fi users. 
+Security threats arise when an attacker forces a network to enable the ad-hoc mode. 
+Some network resources are accessible only in the ad-hoc mode, but this mode is inherently insecure and does not provide strong authentication or encryption. 
+Thus, an attacker can easily connect to and compromise a client operating in the ad-hoc mode. 
+An attacker who penetrates a wireless network can also use an ad-hoc connection to compromise the security of the organization’s wired LAN
+
+
+
+Promiscuous client:
+Using a promiscuous client, an attacker exploits the behavior of 802.11 wireless cards: they always attempt to find a stronger signal to connect. 
+An attacker places an AP near the target Wi-Fi network and gives it a common SSID, offering an irresistibly stronger signal and higher speed than the target Wi-Fi network.
+The intent is to lure the client to connect to the attacker's AP, rather than a legitimate Wi-Fi network.
+Promiscuous clients allow an attacker to transmit target network traffic through a fake AP. 
+It is very similar to the evil-twin threat on wireless networks, in which an attacker launches an AP that poses as an authorized AP by beaconing the WLAN's SSID.
+
+
+Client mis-association:
+The client may intentionally or accidentally connect or associate with an AP outside the legitimate network because the WLAN signals travel through the air, walls, and other obstructions.
+This kind of client mis-association can lead to access-control attacks.
+Mis-association is a security flaw that can occur when a network client connects with a neighboring AP
+To perform a client mis-association attack, an attacker sets up a rogue AP outside the corporation’s perimeter. 
+The attacker first learns the SSID of the target wireless network. 
+Using a spoofed SSID, the attacker may send beacons advertising the rogue AP in order to lure clients to connect.
+The attacker can use the rogue AP as a channel to bypass enterprise security policies. 
+Once a client connects to the rogue AP, an attacker can retrieve sensitive information such as usernames and passwords by launching MITM, EAP dictionary, or Metasploit attacks to exploit client mis-association.
+
+
+ Unauthorized association: 
+Unauthorized association is a major threat to wireless networks. It has two forms: accidental association and malicious association.
+An attacker performs malicious association with the help of soft APs instead of corporate APs. 
+The attacker creates a soft AP, typically on a laptop, by running a tool that makes the laptop’s NIC appear as a legitimate AP. 
+The attacker then uses the soft AP to gain access to the target wireless network. 
+Software APs are available on client cards or embedded WLAN radios in some PDAs and laptops; an attacker can launch these directly or through a virus program. 
+The attacker infects the victim's machine and activates soft APs, allowing an unauthorized connection to the enterprise network.
+An attacker who gains access to the network using unauthorized association may steal passwords, launch attacks on a wired network, or plant Trojans. 
+On the other hand, accidental association involves connecting to the target network’s AP from a neighboring organization’s overlapping network without the victim’s knowledge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
