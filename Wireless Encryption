@@ -1,0 +1,44 @@
+802.11i: 
+It is an IEEE amendment that specifies security mechanisms for 802.11 wireless networks.
+
+WEP:
+WEP is an encryption algorithm for IEEE 802.11 wireless networks. It is an old wireless security standard and can be cracked easily.
+
+EAP: 
+The Extensible Authentication Protocol (EAP) supports multiple authentication methods, such as token cards, Kerberos, and certificates.
+
+LEAP: 
+Lightweight EAP (LEAP) is a proprietary version of EAP developed by Cisco. 
+
+WPA: It is an advanced wireless encryption protocol using TKIP and Message Integrity Check (MIC) to provide strong encryption and authentication. 
+It uses a 48-bit initialization vector (IV), 32-bit cyclic redundancy check (CRC), and TKIP encryption for wireless security.
+
+ TKIP: It is a security protocol used in WPA as a replacement for WEP. 
+
+WPA2: It is an upgrade to WPA using AES and the Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP) for wireless data encryption.
+
+AES: It is a symmetric-key encryption used in WPA2 as a replacement for TKIP. 
+
+CCMP: It is an encryption protocol used in WPA2 for strong encryption and authentication.
+
+WPA2 Enterprise: It integrates EAP standards with WPA2 encryption. 
+
+RADIUS: It is a centralized authentication and authorization management system. 
+
+PEAP: It is a protocol that encapsulates the EAP within an encrypted and authenticated Transport Layer Security (TLS) tunnel.
+
+WPA3: It is a third-generation Wi-Fi security protocol that provides new features for personal and enterprise usage. 
+It uses Galois/Counter Mode-256 (GCMP-256) for encryption and the 384-bit hash message authentication code with the Secure Hash Algorithm (HMAC-SHA-384) for authentication
+
+
+
+
+
+
+
+
+
+
+
+
+
