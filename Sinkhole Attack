@@ -1,0 +1,24 @@
+A sinkhole attack is a variant of the selective forwarding attack in which the attacker advertises a compromised or malicious node as the shortest possible route to the base station.
+
+The attacker places the malicious node near the base station and attracts all the neighboring nodes with fake routing path information and further performs a data forging attack. 
+
+Attackers use the compromised node to sniff and manipulate all ongoing network transmissions.
+
+A sinkhole attack can also be performed simultaneously with a wormhole attack, where the malicious node can occupy all the network traffic and use the tunneling technique to reach the base station faster than other nodes. 
+
+A sinkhole attack is complex to detect, and it can adversely affect higher-layer applications in the Open Systems Interconnection (OSI) model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
