@@ -1,0 +1,52 @@
+WEP was an early attempt to protect wireless networks from security breaches, but as technology improved, it became evident that information encrypted with WEP is vulnerable0 to attack.
+
+WEP is a component of the IEEE 802.11 WLAN standards. 
+Its primary purpose is to ensure data confidentiality on wireless networks at a level equivalent to that of wired LANs, which can use physical security to stop unauthorized access to a network.
+
+In a WLAN, a user or an attacker can access the network without physically connecting to the LAN. 
+
+Therefore, WEP utilizes an encryption mechanism at the data link layer for minimizing unauthorized access to the WLAN.
+
+This is accomplished by encrypting data with the symmetric Rivest Cipher 4 (RC4) encryption algorithm, which is a cryptographic mechanism used to defend against threats
+
+WEP protects against eavesdropping on wireless communications. 
+
+It attempts to prevent unauthorized access to a wireless network. 
+
+It depends on a secret key shared by a mobile station and an AP. 
+This key encrypts packets before transmission. Performing an integrity check ensures that packets are not altered during transmission. 
+802.11 WEP encrypts only the data between network clients.
+
+WEP was developed without any academic or public review. 
+
+In particular, it was not reviewed by cryptologists during development. Therefore, it has significant vulnerabilities and design flaws. 
+
+WEP is a stream cipher that uses RC4 to produce a stream of bytes that are XORed with plaintext. 
+
+The length of the WEP and secret key are as follows: 
+64-bit WEP uses a 40-bit key 
+128-bit WEP uses a 104-bit key 
+256-bit WEP uses 232-bit key
+
+CRC-32 checksum is used to calculate a 32-bit integrity check value (ICV) for the data, which, in turn, is added to the data frame.
+
+A 24-bit arbitrary number known as the initialization vector (IV) is added to the WEP key; the WEP key and IV are together called the WEP seed.
+
+The WEP seed is used as the input to the RC4 algorithm to generate a keystream, which is bit-wise XORed with a combination of the data and ICV to produce the encrypted data.
+
+The IV field (IV + PAD + KID) is added to the ciphertext to generate a MAC frame. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
