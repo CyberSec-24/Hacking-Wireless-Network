@@ -1,0 +1,10 @@
+inSSIDer is a Wi-Fi optimization and troubleshooting tool that scans for wireless networks with the user’s Wi-Fi adapter so that the user can visualize their signal strengths and the channels they are using.
+
+It also lists useful information about each network. Attackers use inSSIDer to discover Wi-Fi access points and devices in their vicinity.
+
+Inspects WLAN and surrounding networks to troubleshoot competing APs 
+
+Tracks the strength of a received signal in terms of dBm over time and filters APs 
+
+Highlights APs for areas with high Wi-Fi concentration
+
